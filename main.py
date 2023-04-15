@@ -19,7 +19,7 @@ def generate_response(prompt):
     return message
 
 
-st.title("chatBot : Streamlit + openAI")
+st.title("PrydeBot")
 
 # Storing the chat
 if 'generated' not in st.session_state:
